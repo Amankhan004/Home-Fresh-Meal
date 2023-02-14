@@ -209,13 +209,13 @@ button{
 /* section-Card */
 .cards{
     padding: 6.25em 0;
-    background: #d8ebeb;
+    background: #ffff;
 }
 
 .card{
     border: 2px solid black !important;
     border-radius: 10px !important;
-    box-shadow: 5px 5px 34px red;
+    box-shadow: 5px 5px 34px #e78989;
 }
 
 .img-card img{
@@ -555,7 +555,238 @@ padding: 40px 94px
 .rotated {
     transform: rotate(90deg);
 }
+.dummy{
+    transition: 0.3s transform;
+    
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.ready-to-start{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    padding: 0px 94px;
+    max-width: 1440px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.collapse-fixings::after{
+display: block;
+    content: '';
+    width: 16%;
+    position: absolute;
+    left: 41%;
+    text-align: center;
+    border: solid rgb(218, 58, 74);
+    border-width: thin;
+    margin: 0 auto;
+    height: 2px;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.ready-to-start h2{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+}
 
+
+
+
+
+.ready-img{
+    width: 50% !important;
+    height: auto;
+
+
+}
+.ready-h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ready-img img{
+    height: 100%;
+    width: 100%;
+}
+.container.container-flex{
+    width: auto !important;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 220px;
+
+}
+
+
+.ready-to-start p{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;}
+.rady-para{
+    margin-bottom: 10px;
+    color: rgb(149, 149, 149);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 24px;
+
+}
+/* FOOTER  */
+
+.footer{
+    padding: 40px;
+    background-color: rgb(247, 247, 247);
+
+}
+.footer .container{
+    width: auto !important;
+}
+.items-6{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-links{
+    display:flex ;
+    flex-direction: column;
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    font-size: 16px;
+   margin-bottom: 7px;
+}
+.footer-img a{
+    height: 100%;
+    width:100%;
+}
+.footer-img{
+    height: 40px;
+    width: 100px;
+    color: rgb(217, 58, 74);
+}
+.footer span{
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: rgb(92, 91, 91);
+    
+    font-size: larger;
+    
+}
+.policy a:first-child{
+    margin-right: 30px;
+}
+.policy a{
+    gap: 20px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    font-size: 13px;
+}
+
+.store svg{
+    font-size: 14px;
+
+}
+.footer-bottom{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+}
+.home-footer .store{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.store i{
+    margin-right: 4px;
+    font-size: 12px;
+}
+.store span{
+    font-size: 13px;
+}
+.store-img a:first-child{
+    margin: 0 8px; 
+}
+
+footer{
+   
+    background: white;
+    padding: 10px 10px 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 2px;
+}
+footer .footer-flex{
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+}
+footer .footer-flex .get-started{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos{
+    padding: 4.5em 0;
+    background-image: url(../images/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.videos .container{
+    background-color: rgba(255,255,255,0.25);
+    backdrop-filter: blur(4px);
+    width: 95% !important;
+    border-radius: 20px;
+    padding: 3em 0;
+}
+
+.videos .videos-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.videos .videos-2{
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+    padding-top:40px ;
+}
+.videos video{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.videos p{
+    margin-bottom: -1rem;
+    font-size: 18px !important;
+    font-weight: 500;
+
+}.videos-para{
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px 7px 7px rgb(16 15 15) !important;
+height: 30px;
+    border-radius: 15px;
+    padding: 0px 15px ;
+}
+.videos p.font-para{
+    font-size: 17px !important;
+}
 
 
 

@@ -15,3 +15,13 @@
 //     var img = document.getElementById("image");
 //     img.rotate(20*Math.PI/180);
 //     }
+
+
+let rotateimg=document.querySelectorAll(".dummy");
+rotateimg.forEach(element => {
+   element.addEventListener('click',()=>{
+    element.classList.toggle('rotate')
+   })    
+});
+
+AOS.init();
