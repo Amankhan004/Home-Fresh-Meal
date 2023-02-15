@@ -647,6 +647,7 @@ display: block;
 .footer{
     padding: 40px;
     background-color: rgb(247, 247, 247);
+    padding-bottom: 95px;
 
 }
 .footer .container{
@@ -702,6 +703,7 @@ display: block;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
+    margin-bottom: 35px;
 
 }
 .home-footer .store{
@@ -725,7 +727,20 @@ footer{
     background: white;
     padding: 10px 10px 20px;
     box-shadow: rgb(0 0 0 / 25%) 0px 0px 2px;
+    z-index: 1040;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+    display: block;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
+footer.active{
+        visibility: visible;
+        opacity: 1;
+    }
 footer .footer-flex{
     display: flex;
     text-align: center;
